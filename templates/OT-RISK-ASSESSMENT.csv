@@ -1,0 +1,3 @@
+Risk ID,Zone,Asset ID,Asset Role,Threat Scenario,Existing Safeguards,Consequence,Impact,Likelihood,Initial Risk,Recommended Treatment,Owner Role,Due Date,Residual Risk,Status
+OT-R-001,Control Cell,ASSET-PLC-01,Synthetic PLC,Unauthorized engineering access,Isolated lab and controlled accounts,Loss of process integrity,High,Low,High,Review access pathway and session logging,OT Security Lead,YYYY-MM-DD,Medium,Open
+OT-R-002,Supervisory,ASSET-HMI-01,Synthetic HMI,Malware introduction,Endpoint hardening concept and restricted media,Loss of operator visibility,High,Medium,High,Validate allow-listing and recovery process,OT Operations Lead,YYYY-MM-DD,Medium,Open
