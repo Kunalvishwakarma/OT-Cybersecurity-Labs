@@ -62,14 +62,20 @@ Use fictional assets and qualitative examples only; do not disclose real site or
 - Do not publish real OT asset inventories, network diagrams, process details or vendor remote-access paths.
 - Obtain authorization and follow site safety procedures for any real-world activity.
 
+## Published learning artefacts
+
+- [Synthetic zones-and-conduits case study](case-studies/SYNTHETIC-ZONES-AND-CONDUITS.md)
+- [OT risk assessment template](templates/OT-RISK-ASSESSMENT.csv)
+- [Secure remote-access design considerations](docs/SECURE-REMOTE-ACCESS.md)
+- [OT incident response and recovery notes](docs/OT-INCIDENT-AND-RECOVERY.md)
+- [IEC 62443 concept map](docs/IEC-62443-CONCEPT-MAP.md)
+
 ## Roadmap
 
-- [ ] Add an OT/IT boundary and industrial DMZ reference design
-- [ ] Add a zones-and-conduits exercise
-- [ ] Add a sample OT risk assessment using synthetic assets
-- [ ] Add secure remote-access design considerations
-- [ ] Add backup, recovery and incident-response learning notes
+- [x] Add an OT/IT boundary and industrial DMZ reference design
+- [x] Add a zones-and-conduits exercise
+- [x] Add a sample OT risk assessment using synthetic assets
+- [x] Add secure remote-access design considerations
+- [x] Add backup, recovery and incident-response learning notes
 
-## References to consult
-
-Use the latest official publications and standards from ISA, IEC and relevant national cybersecurity authorities. Standards may be licensed; do not reproduce copyrighted standard text.
+These are educational materials, not certified IEC 62443 assessments or instructions for changes to live industrial control systems. Use current official standards, site engineering procedures and safety governance.
