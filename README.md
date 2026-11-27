@@ -2,17 +2,18 @@
 
 **Operational technology | Industrial control systems | IEC 62443 | Purdue model**
 
-A structured learning portfolio focused on the security principles, architecture patterns and risk-management practices used in industrial and operational technology environments.
+This repository represents my structured learning and professional development in OT cybersecurity, building on a broader enterprise infrastructure and network background. It explores how industrial environments differ from traditional IT, and how architecture, segmentation, risk assessment, secure remote access and recovery principles can be considered in an OT context.
 
-> These are educational, isolated lab exercises. They are not instructions for interacting with live industrial control systems.
+**Scope clarification:** these are educational, synthetic and isolated lab materials. They do not claim hands-on production OT security implementation, a certified IEC 62443 assessment or authority to make changes to live industrial systems.
 
 ## Learning objectives
 
-- Understand the differences between IT and OT priorities, lifecycles and risk.
-- Explain the Purdue Enterprise Reference Architecture at a conceptual level.
+- Explain the differences between IT and OT priorities, lifecycles and risk.
+- Understand the Purdue Enterprise Reference Architecture conceptually.
 - Apply IEC 62443 concepts such as zones, conduits and security levels.
-- Understand OT asset inventory, risk assessment and secure remote access.
-- Explore monitoring, incident response, resilience and recovery in OT.
+- Explore OT asset inventory, risk assessment and secure remote access.
+- Understand monitoring, incident response, resilience and recovery in OT.
+- Relate network segmentation and infrastructure security principles to industrial environments.
 
 ## Conceptual Purdue-style model
 
@@ -31,9 +32,9 @@ flowchart TB
     L1 <--> L0
 ```
 
-This is a simplified teaching diagram. Real architectures vary by sector, process, safety requirements and engineering design.
+This is a simplified teaching model. Real architectures vary by sector, process, safety requirements and engineering design.
 
-## IEC 62443 concepts
+## IEC 62443 concepts explored
 
 | Concept | Practical interpretation |
 |---|---|
@@ -42,25 +43,7 @@ This is a simplified teaching diagram. Real architectures vary by sector, proces
 | Zones | Groups assets with common security requirements |
 | Conduits | Controls and monitors communications between zones |
 | Security levels | Expresses target capability/resistance requirements in context |
-| Defense in depth | Uses multiple complementary safeguards |
-
-## OT risk assessment starter
-
-| Asset / process | Threat scenario | Consequence | Existing controls | Risk / action |
-|---|---|---|---|---|
-| Synthetic PLC cell | Unauthorized engineering access | Loss of process integrity | Isolated lab, access control | Review access path |
-| HMI workstation | Malware introduction | Loss of operator visibility | Allow-listing concept, backups | Validate recovery |
-| Historian | Unauthorized data access | Loss of data confidentiality | Segmentation, authentication | Review data flows |
-
-Use fictional assets and qualitative examples only; do not disclose real site or process information.
-
-## Safe lab rules
-
-- Use simulated systems, training images or isolated virtual environments.
-- Never connect a lab to a live production OT network.
-- Do not probe, scan, exploit or change configurations on real industrial systems.
-- Do not publish real OT asset inventories, network diagrams, process details or vendor remote-access paths.
-- Obtain authorization and follow site safety procedures for any real-world activity.
+| Defence in depth | Uses multiple complementary safeguards |
 
 ## Published learning artefacts
 
@@ -70,12 +53,18 @@ Use fictional assets and qualitative examples only; do not disclose real site or
 - [OT incident response and recovery notes](docs/OT-INCIDENT-AND-RECOVERY.md)
 - [IEC 62443 concept map](docs/IEC-62443-CONCEPT-MAP.md)
 
-## Roadmap
+## How I approach the subject
 
-- [x] Add an OT/IT boundary and industrial DMZ reference design
-- [x] Add a zones-and-conduits exercise
-- [x] Add a sample OT risk assessment using synthetic assets
-- [x] Add secure remote-access design considerations
-- [x] Add backup, recovery and incident-response learning notes
+The exercises focus on understanding assets and operational consequences first, then considering trust zones, controlled conduits, access paths, monitoring and recovery. In OT, security measures must be evaluated alongside safety, availability, deterministic operation, vendor support and site engineering procedures.
 
-These are educational materials, not certified IEC 62443 assessments or instructions for changes to live industrial control systems. Use current official standards, site engineering procedures and safety governance.
+## Safe lab boundaries
+
+- Use simulated systems, training images or isolated virtual environments.
+- Never connect a lab to a live production OT network.
+- Do not probe, scan, exploit or change configurations on real industrial systems.
+- Do not publish real OT asset inventories, network diagrams, process details or vendor remote-access paths.
+- Obtain authorisation and follow site safety procedures for any real-world activity.
+
+## Responsible publication
+
+All examples use fictional assets and conceptual designs. They are intended to demonstrate learning and structured security thinking—not production OT experience, certified compliance, or instructions for operating industrial control systems. Refer to current official standards, qualified OT engineers and site-specific safety governance for real projects.
